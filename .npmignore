@@ -1,8 +1,8 @@
-.vscode
 .eslintignore
 .eslintrc.js
 .gitignore
 .github
+.babelrc
 
 packages/
 example/
@@ -11,3 +11,14 @@ lib/
 
 package-lock.json
 test_packages/
+
+# Editor directories and files
+.project
+.idea
+.vscode
+.hbuilderx
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
