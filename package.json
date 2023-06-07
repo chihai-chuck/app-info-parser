@@ -1,5 +1,5 @@
 {
-  "name": "app-info-parser",
+  "name": "@chihai-chuck/app-info-parser",
   "version": "1.1.5",
   "description": "Exact info from apk or ipa file.",
   "main": "./src/index.js",
@@ -19,6 +19,9 @@
   "browser": {
     "./src/bplist-parser/index.js": "./src/bplist-parser/browser.js"
   },
+  "publishConfig": {
+    "@chihai-chuck:registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "ipa",
     "apk",
@@ -31,15 +34,15 @@
   "dependencies": {
     "bplist-parser": "^0.2.0",
     "bytebuffer": "^5.0.1",
-    "commander": "^7.2.0",
     "cgbi-to-png": "^1.0.7",
+    "commander": "^7.2.0",
     "isomorphic-unzip": "^1.1.5",
-    "plist": "^3.0.1"
+    "plist": "^3.0.6"
   },
   "devDependencies": {
-    "@babel/cli": "^7.4.4",
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
+    "@babel/cli": "^7.21.5",
+    "@babel/core": "^7.22.1",
+    "@babel/preset-env": "^7.22.4",
     "babelify": "^10.0.0",
     "browserify": "^16.2.3",
     "derequire": "^2.0.6",

@@ -6,3 +6,14 @@ yarn.lock
 yarn-error.log
 
 test_packages/
+
+# Editor directories and files
+.project
+.idea
+.vscode
+.hbuilderx
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
