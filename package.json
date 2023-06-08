@@ -1,6 +1,6 @@
 {
   "name": "@chihai-chuck/app-info-parser",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Exact info from apk or ipa file.",
   "main": "./src/index.js",
   "scripts": {
